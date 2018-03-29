@@ -4969,11 +4969,15 @@ tbody.collapse.show {
 }
 
 .alert-dismissible .close {
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   padding: 0.75rem 1.25rem;
   color: inherit;
+    
+}
+.close h4{
+    float: left!important;
 }
 
 .alert-primary {
@@ -5500,11 +5504,14 @@ button.close {
 .modal-header .close {
   padding: 1rem;
   margin: -1rem -1rem -1rem auto;
+    position: fixed;
 }
 
 .modal-title {
   margin-bottom: 0;
   line-height: 1.5;
+    margin-left: 50%;
+
 }
 
 .modal-body {

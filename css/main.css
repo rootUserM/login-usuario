@@ -96,7 +96,16 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   html{
+       box-sizing: border-box;/*border box es utilizado para que en el moento que se utilice padding no afecte*/
+   }
+   *,*:before,*:after{
+   box-sizing: inherit;
+   }
+   body{
+       background-color:  #fff;
 
+   }
 .foter{
     margin-top: 100%;
 }
@@ -291,4 +300,3 @@ textarea {
         page-break-after: avoid;
     }
 }
-
