@@ -106,11 +106,109 @@ textarea {
        background-color:  #fff;
 
    }
-.foter{
-    margin-top: 100%;
+h2{
+    text-align: center;
+
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
 }
 
+/*****Estilos globales******/
+.foter{
+    margin-top:10%;
+}
+.promociones-inicio{
+    padding-top: 35px;
+    display: inline-block;
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+.promociones-inicio div{
+   float: left;
+}
+.formato-promo{
+    height: auto;
+    width: 45%;
+    border: 1px solid #e1e1e1;
+   margin-left: 40px;
+      }
+.formato-promo ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    padding:  10px 10px 10px 10px;
+}
+.formato-promo ul li:hover{
+    border-bottom: 1px solid gray;
+     }
+.formato-promo ul li::before{
+ content: '\f058';
+    display: inline-block;
+    vertical-align: top;
+    padding:  0 5px;
+    font-size: 20px;
+    color: green;
+    font-family: 'FontAwesome';
+    
+    }
+.formato-promo h2{
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 2px solid gray;
+}
+#h2-promo{
+    text-align: left!important;
+    padding-left: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+div.linea{
+    width: 100%;
+    
+}
+div.linea span{
+  height: 2px; 
+    margin-bottom: 6px; 
+    background-color: gray;
+    display: block; 
+     }
+section.articulos-promocion{
+    display: inline-block;
+}
 
+section.articulos-promocion div{
+    float: left;
+  
+    }
+div.articulo a{
+    text-decoration: line-through!important;
+     font-family: 'Josefin Sans', sans-serif;
+    color: grey!important;
+float: right;
+}
+div.articulo{
+    width: auto;
+    height: auto;
+    margin: 25px 5px;
+}
+section.articulos-promocion img{
+    height:30vh ;
+    width:30vh;
+    border-radius: 50%;
+    }
+#precio{
+    height: 50px;
+    width: auto;
+    
+    background-color: darkslategray;
+    border-radius: 15%;
+    color: #fff;
+}
 
 
 
