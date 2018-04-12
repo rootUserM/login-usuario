@@ -50,10 +50,11 @@
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/vendor/slider.js"></script>
+      <script src="js/vendor/slider.js"></script>
 <script src="js/bootstrap.min.js"></script>
-   
+   <link rel="stylesheet" href="admin/js/admin-ajax.js">
+        <link rel="stylesheet" href="admin/js/sweetalert2.min.js">
+     
          <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;

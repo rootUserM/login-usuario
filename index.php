@@ -1,6 +1,6 @@
          <?php include_once 'includes/templates/header.php';?>
 
-        <div id="contenedor-slider" class="contenedor-slider">
+        <div id="contenedor-slider clearfix" class="contenedor-slider">
  <div id="slider" class="slider">
     <section class="slider__section"><img src="img/fondo1.jpg" class="slider__img"></section>
     <section class="slider__section"><img src="img/fondo2.jpg" class="slider__img"></section>
@@ -51,7 +51,7 @@
           </section>
           <section class="articulos-condescuento promociones-inicio">
           <h2 id="h2-promo"> Marcas colaboradoras </h2> <div class="linea"><span></span></div>
-          <section class="articulos-promocion">
+          <section class="articulos-marcas">
               <div class="articulo"><img src="img/HP_logo.jpg" alt=""> </div>
                <div class="articulo"><img src="img/ASUS-Logo.jpg" alt=""></div>
                 <div class="articulo"><img src="img/Huawei-logo.jpeg" alt=""></div>

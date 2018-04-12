@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>MPC|Administrador</title>
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,14 +17,10 @@
    <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="admin/css/sweetalert2.min.css"> 
-        
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="js/vendor/jquery.min.js"></script>
   <script src="js/vendor/slider.js"></script>
 <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="admin/js/admin-ajax.js">
-        <link rel="stylesheet" href="admin/js/sweetalert2.min.js">
     </head> 
     <body>
         <!--[if lte IE 9]>
@@ -74,30 +70,31 @@
           <h4 class="modal-title">login</h4>
         </div>
         <div class="modal-body">
-
-          <form action="validar.php">
+<h6 style="color:red;">El correo o la contraseña son incorrectos</h6>
+          <form action="login.php">
   <div class="form-group">
     <label for="direccion">Correo</label><br>
-   <input type="mail" class="form-control" id="correo">
+   <input type="mail" class="form-control" id="cantidad">
   </div>
   <div class="form-group">
     <label for="pwd">Password</label>
-    <input type="password" class="form-control" id="password">
+    <input type="password" class="form-control" id="cantidad">
   </div>
- <div class="modal-footer">
-       <button type="" class="btn"><a href="admin/Adminarea.php">Administrador</a></button>
-        <button type="" class="btn fl"><a href="registro_usuario.php">Registrarse</a></button>
-         <button type="submit" class="btn btn-default">Entrar</button>
-          <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-        </div>
+
   
 </form>
 
         </div>
-       
+        <div class="modal-footer">
+        <button type="submit" class="btn fl"><a href="registro.php">Registrarse</a></button>
+         <button type="submit" class="btn btn-default">Entrar</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+        </div>
       </div>
     </div>
   </div>
 </nav>
             </section><!-- End contanier-->
         </header><!-------------------------------------------------------- End header-->
+
+<?php include_once 'includes/templates/footer.php';?>
