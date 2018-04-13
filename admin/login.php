@@ -30,20 +30,19 @@ include_once 'templates/header.php';
       </div>
       <div class="row">
         
-        <!-- /.col -->
+        
         <div class="col-xs-12 ">
          <input type="hidden" name="login-admin" value="1">
           <button type="submit"  class="btn btn-primary btn-block btn-flat">Iniciar sesion</button>
         </div>
-        <!-- /.col -->
+        
       </div>
     </form>
     <!-- /.social-auth-links -->
  
   </div>
-  <!-- /.login-box-body -->
+  
 </div>
-<!-- /.login-box -->
 
 
   <?php include_once 'templates/footer.php';?>  
