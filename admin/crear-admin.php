@@ -6,11 +6,7 @@
         Crear administrador
         <small>llena el formulario</small>
       </h1>
-      <?php  /*<ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Examples</a></li>
-        <li class="active">Blank page</li> 
-      </ol>*/?>
+      <?php ?>
     </section>
 
     <!-- Main content -->
@@ -21,13 +17,7 @@
         <div class="box-header with-border">
           <h3 class="box-title">Agregar adminstrador</h3>
 
-       <?php  /*  <div class="box-tools pull-right">
-            <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
-                    title="Collapse">
-              <i class="fa fa-minus"></i></button>
-            <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
-              <i class="fa fa-times"></i></button> 
-          </div>*/?>
+       <?php ?>
         </div>
         <div class="box-body">
                 <!-- form start -->
@@ -48,8 +38,7 @@
                   <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                 </div>
             </div>
-              <!-- /.box-body -->
-
+             
               <div class="box-footer">
                <input type="hidden" name="agregar-admin" value="1">
                 <button type="submit" class="btn btn-primary" >Añadir</button>
@@ -58,15 +47,14 @@
           </div>
 
         </div>
-        <!-- /.box-body -->
+      
         
       </div>
-      <!-- /.box -->
- 
+     
     </section>
-    <!-- /.content -->
+   
   </div>
-  <!-- /.content-wrapper -->
+  
 
   <?php include_once 'templates/footer.php';?>  
 
