@@ -73,37 +73,4 @@ $opciones = array(
     }
 
  ?>
-<?php /* 
-<?php 
-if(isset ($_POST['usuario'])){
-    $usuario = $_POST['usuario'];
-}
-if(isset ($_POST['nombre_admin'])){
-    $nombre_admin=$_POST['nombre_admin'];
-}
-if(isset ($_POST['password'])){
-    $password= $_POST['password'];
-}
-$opciones = array(
-'cost' => 12
-);
-$password_hashed= password_hash($password, PASSWORD_BCRYPT, $opciones);
-
-try{
-    require_once ('funciones/funciones.php');
-    $sql="INSERT INTO `adminis`(`id_admin`,`usuario`,`nombre`,`password`)";
-    $sql.="VALUES(null,'{$usuario}','{$nombre_admin}','{$password_hashed}');";
-    $resultado = $conn->query($sql);
-    if($sql->affected_rows){
-        $respuesta = array(
-        'respuesta'=> 'exito'
-        );
-            
-    }
-    
-}catch(Exception $e){
-$error = $e-> getMessage();
-}
-
-?>
-*/?>
+<?php ?>
