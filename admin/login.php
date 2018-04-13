@@ -38,7 +38,7 @@ include_once 'templates/header.php';
         
       </div>
     </form>
-    <!-- /.social-auth-links -->
+    
  
   </div>
   
